@@ -9,7 +9,7 @@ import ProLayout, {
   Settings,
   DefaultFooter,
 } from '@ant-design/pro-layout';
-import { formatMessage } from 'umi-plugin-react/locale';
+import { formatMessage } from 'umi/locale';
 import React, { useEffect } from 'react';
 import { Link } from 'umi';
 import { Dispatch } from 'redux';

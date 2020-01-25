@@ -2,7 +2,7 @@ import { DefaultFooter, MenuDataItem, getMenuData, getPageTitle } from '@ant-des
 import { Helmet } from 'react-helmet';
 import { Link } from 'umi';
 import React from 'react';
-import { formatMessage } from 'umi-plugin-react/locale';
+import { formatMessage } from 'umi/locale';
 import { connect } from 'dva';
 import SelectLang from '@/components/SelectLang';
 import { ConnectProps, ConnectState } from '@/models/connect';
