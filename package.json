@@ -4,6 +4,7 @@
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
   "scripts": {
+    "link": "yarn link umi && yarn link @umijs/types && yarn link '@umijs/plugin-dva && yarn link @umijs/plugin-antd && yarn link @umijs/plugin-locale",
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi build",
     "deploy": "npm run site && npm run gh-pages",
@@ -74,7 +75,6 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "redux": "^4.0.1",
-    "umi": "^2.13.0",
     "umi-request": "^1.0.8",
     "use-merge-value": "^1.0.1"
   },
